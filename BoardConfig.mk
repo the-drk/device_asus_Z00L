@@ -30,8 +30,5 @@ TARGET_KERNEL_CONFIG := Z00L_defconfig
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
-# Shipping API level (for CTS backward compatibility)
-PRODUCT_SHIPPING_API_LEVEL := 21
-
 # inherit from the proprietary version
 -include vendor/asus/Z00L/BoardConfigVendor.mk
