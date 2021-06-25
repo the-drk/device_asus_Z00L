@@ -1,4 +1,3 @@
-#
 # Copyright (C) 2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,8 +13,8 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_Z00L.mk
+    $(LOCAL_DIR)/du_Z00L.mk
     
 COMMON_LUNCH_CHOICES := \
-    lineage_Z00L-userdebug \
-    lineage_Z00L-eng
+    du_Z00L-userdebug \
+    du_Z00L-eng
