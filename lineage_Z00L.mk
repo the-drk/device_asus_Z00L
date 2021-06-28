@@ -36,3 +36,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-asus
 
 # Misc
 LINEAGE_VERSION_APPEND_TIME_OF_DAY := true
+
+# Set Bootanim Resolution
+TARGET_BOOT_ANIMATION_RES := 720
